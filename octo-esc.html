@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Christof Belisle - Cookwell</title>
+    <title>Christof Belisle - Octopus Escape</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -50,7 +50,7 @@
             <nav class="header__nav-wrap" >
                 <ul class="header__nav">
                         <li><a href="index.html" title="" style="color = #363636;">Homepage</a></li>
-                        <li><a href="octo-esc.html" title="" style="color = #363636;">Octopus Escape</a></li>
+                        <li><a href="cookwell.html" title="" style="color = #363636;">Cookwell</a></li>
                         <li><a href="conway-gol.html">Conway's Game of Life</a></li>
                         </ul>
                     </li>
@@ -79,7 +79,7 @@
 
                     <div class="content__page-header entry__header">
                         <h1 class="display-1 entry__title">
-                        Cookwell - Mobile Recipe Manager.
+                        Octopus Escape - Unity Based Video Game.
                         </h1>
                         <ul class="entry__header-meta">
                             <li class="author">By <a href="https://www.linkedin.com/in/christof-belisle/" target="_blank">Christof Belisle</a></li>
@@ -90,9 +90,8 @@
                     <div class="entry__content">
 
                         <p class="lead drop-cap">
-                              Cookwell has been a dream of mine for a while. During University when I began to understand the power of Java I started
-                              on an idea that would manage my recipes. It was an easy way to put together two passions - coding and cooking. Today its now being developed
-                              as a Flutter and Dart project for iOS and Android.
+                              Octopus Escape was a fun weekend of game development. Participating in the Brackey's 2020 Game Jam, I had 48 hours to develop an idea around the Theme
+                              "Out of Control."
                         </p>
 
 
@@ -100,58 +99,35 @@
 
 
                           <div class="text-center" style="margin-top: 0px">
-                            <h2>Early Development</h2>
+                            <h2>Pixel Art and Game Design</h2>
                             </div>
                             <p class="tab">
-                        The first prototype was rough, while just learning the basics, I started by creating recipes and outputting them to the console. With no knowledge on graphics or
-                        UI I hit my first stopping point. The project had never really left my mind, but I had stopped working on it. When my school offered designing mobile apps
-                        for the first time I could see the project in a new light. With the class forcing us to publish an app to the app store this was the first version of Cookwell.
-                        It had released for android and was a rough design.
+                        Having spent the summer learning how to do pixel art, and learning how to develop games using unity, this was a perfect chance to show off what I had learned.
+                        48 Hours proved to be the test of my skills and creativity. The pixel art was a big part of the game. Creating the assets, animating and creating levels was a challenge.
+                        As my first project using my own home designed art I'm quite proud of the piece.
+
                         </p>
 
 
-                        <p class="tab">
-                        It became clear that the UI needed some real work - we needed to change the way the app looked and functioned. The functionality was there - utilizing firebase to store
-                        basic user information, their recipes and a search function. The app really need a retune. The main reason we decided to change the development from android studio and Java
-                        was because we wanted to release to Android and iOS at the same time. So we looked at our options.
+                        <p>
+                        The idea was that you don't control your character. You give it commands blindly mapping the movement of the octopus through the level without ever moving the character
+                        itself. It proved to be hard. The controls were certainly not clear and that became its biggest flaw. People weren't sure how to play the game. After the game jam I
+                        tweaked it a bit and made it a little more managable.
+                        You can play the game jam submission here:
+                        <br>
+                        <a href="https://christofb.itch.io/octopus-escape"> Octopus Escape on Itch.io </a>
                         </p>
 
 <div class="text-center" style="margin-top: 0px">
-                        <h2 >Flutter and Dart</h2>
+                        <h2 >Further Development</h2>
 </div>
                         <p>
-                        After doing research there were many factors that came into consideration. We had narrowed it down to React Native and Flutter and Dart.
-                        Looking at the documentation flutter and dart had won my heart. It ultimately came down to what we were comfortable with. I had no experience
-                        with JavaScript at the time and decided that if I were to learn a new language I should dive in. Flutter's motto was, at the time, "Develope beautiful apps quickly",
-                        and that settled it for me. I had made my choice. We would develop in the language started by Google in 2018.
-                        </p>
+                        Developing the game further and improving based on feedback gave the game a new life. It became more playable, slower paced, and more managable.
+                        It game the game playability that was more than just a few minutes confused sitting there confused on what to do with no chance of trying it on your own.
 
-<pre><code>
-  Widget build(BuildContext context) {
-      final colorScheme = Theme.of(context).colorScheme;
-      final textTheme = Theme.of(context).textTheme;
-      return Scaffold(
-          drawer: Drawer(
-            child: Container(
-              margin: EdgeInsets.only(top: 20.0),
-              child: Column(
-                children: <Widget>[
-                  navigationItemListTitle(RECIPES, _recipeMenu),
-                  navigationItemListTitle(SHOPPING, _shoppingMenu),
-                  navigationItemListTitle("Search", SearchRecipes()),
-                  navigationItemListTitle("MyCookbook", MyCookbook())
-                ],
-              ),
-            ),
-          ),
-          ...
-</code></pre>
+                        This was a great project, much like Cookwell this was another piece that I was passionate about, that I spent some time away from school to learn how to do.
 
-                        <p>
-                        Taking a course on Udemy, learning as I go, developing other apps as well as re-creating cookwell in Flutter was a blast.
-                        Falling in love with the way the code looked - the widgets, and the simplicity of it all really gave me a new found passion for
-                        the dream project of mine. As life got hectic with my last semester - an internship, and a full course load meant I had to put aside
-                        the project, but I am ever so ready to get started on it once again.
+                        You will see the second version of the game playable here once I figure out how to embed the unity player here.
                         </p>
 
 
