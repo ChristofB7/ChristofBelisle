@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+
+
+    <link rel="stylesheet" href="./debug.css">
+
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Project Tentacle</title>
@@ -11,6 +16,21 @@
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/octo.json", {onProgress: UnityProgress});
     </script>
+
+    <header class="s-header header">
+        <nav class="header__nav-wrap" >
+            <ul class="header__nav">
+                    <li><a href="index.html" title="" style="color = #363636;">Homepage</a></li>
+                    <li><a href="cookwell.html" title="" style="color = #363636;">Cookwell</a></li>
+                    <li><a href="conway-gol.html">Conway's Game of Life</a></li>
+                    </ul>
+                </li>
+            </ul> <!-- end header__nav -->
+
+        </nav> <!-- end header__nav-wrap -->
+
+    </header> <!-- end s-header -->
+
   </head>
   <body>
     <div class="webgl-content">
