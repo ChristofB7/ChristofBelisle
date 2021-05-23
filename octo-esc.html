@@ -34,6 +34,16 @@
       .tab {text-indent: 50px}
     </style>
 
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Project Tentacle</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/octo.json", {onProgress: UnityProgress});
+    </script>
 
 </head>
 
@@ -130,7 +140,18 @@
                         This was a great project, much like Cookwell this was another piece that I was passionate about, that I spent some time away from school to learn how to do.
 
                         You can play the WEBGL second version here:
-                        <a href="./octopus-game.html"> Here </a>
+
+
+
+                      <body>
+                        <div class="webgl-content">
+                          <div id="unityContainer" style="width: 960px; height: 600px"></div>
+                          <div class="footer">
+                            <div class="webgl-logo"></div>
+                            <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                            <div class="title">Project Tentacle</div>
+                          </div>
+                        </div>
                         </p>
 
 
@@ -142,6 +163,7 @@
 
         <!-- footer
         ================================================== -->
+        <div class="container" style="margin-top: 1200px">
         <footer class="s-footer footer">
             <div class="row">
                 <div class="column large-full footer__content">
@@ -157,6 +179,7 @@
             </div>
         </footer>
 
+</div>
     </div> <!-- end s-wrap -->
 
 
