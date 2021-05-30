@@ -103,18 +103,11 @@ a {
   color: inherit;
   transition: all 0.3s ease-in-out;
 }
-
 a:hover,
 a:focus,
-a:active {
-  color: #ffffff;
-}
+
 
 a:hover,
-a:active {
-  color: #ffffff;
-  outline: 0;
-}
 
 
 /* ===================================================================

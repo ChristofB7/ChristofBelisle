@@ -72,8 +72,26 @@
 
                 <article class="column large-full entry format-standard">
                     <div class="content__page-header entry__header">
-                      <iframe src="https://christofb7.github.io/Game_Of_Life_JavaScript_Graphics/" title="Game of life" style="width:996px; height:790px;" scrolling ="no" frameborder="0"></iframe>
+                      <iframe src="https://christofb7.github.io/Game_Of_Life_JavaScript_Graphics/" title="Game of life" style="width:1002px; height:802px;" scrolling ="no" frameborder="0"></iframe>
+                      <div class="center">
+                          <h3 style="color:black;">Check out the source code or its own site!</h3>
+                        <a href="https://christofb7.github.io/Game_Of_Life_JavaScript_Graphics/" target="_blank">
+                        <div class="button" style="float:left;">
+                          <div class="icon"><i style="font-size:42px" class="fa">&#xf0ac;</i>
+                          </div>
+                        </div>
+                      </a>
+                        <a href="https://github.com/ChristofB7/Game_Of_Life_JavaScript_Graphics" target="_blank">
+                        <div class="button" style="float:left;">
+                          <div class="icon"><i style="font-size:42px;padding: 18px 10px;" class="fa">&#xf09b;</i>
+                          </div>
+                        </div>
+                        </a>
+
+                      </div>
                       <br><br>
+
+
                         <h1 class="display-1 entry__title">
                         John Conway's Game of Life.
                         </h1>
@@ -84,48 +102,89 @@
                     </div> <!-- end entry__header -->
 
                     <div class="entry__content">
-
+                      <div class="center">
                         <p class="lead drop-cap">
-                              John Conway's game of life is a way to simulate live and dead cells based on rules. Originally as a C++ assignment, I turned this assignment into a fun and interactive
-                              JavaScript program that plays in the browser*.
+                          The Game With No Player.
                         </p>
-                        <p>
-                          *soon to come
-                        </p>
+                      </div>
+
+                      <p class="tab">
+                  Game of life, no, not the board game, is a simple simulation of living cells.
+                  John Conway and his group of friends developed the game of life during their lunch breaks before they even had access to a computer.
+                  They spent many different “coffee talks” adjusting the rules of the game of life.
+                  Eventually they landed on the famous four rules of the game
+                  </p>
+
+                  <div class="row">
+                    <div class="col" style="float: left; width: 50%; margin-left:150px;">
+                      <img src="Rule1.jpg"></img><br>
+                    </div>
+                    <div class="col" style="float: left; width: 30%">
+                      <p style="margin-top: 130px;"> Any live cell with fewer than two live neighbours dies, as if by underpopulation.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col" style="float: left; width: 50%;  margin-left:150px;">
+                      <img src="rule2.jpg"></img><br>
+                  </div>
+                  <div class="col" style="float: left; width: 30%">
+                    <p style="margin-top: 130px;"> Any live cell with two or three live neighbours lives on to the next generation.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col" style="float: left; width: 50%;  margin-left:150px;">
+                    <img src="Rule3.jpg"></img><br>
+                  </div>
+                  <div class="col" style="float: left; width: 30%">
+                    <p style="margin-top: 130px;"> Any live cell with more than three live neighbours dies, as if by overpopulation.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col" style="float: left; width: 50%;  margin-left:150px;">
+                    <img src="Rule4.jpg"></img><br>
+                  </div>
+                  <div class="col" style="float: left; width: 30%">
+
+                    <p style="margin-top: 130px;"> Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</p>
+                  </div>
+                </div>
+
+            <p class="tab">
+            The game of life’s purpose was to further exercise John Von Nuemann’s thought of a machine building a copy of itself.
+            In the game of life, Conway and his friends simulated this idea on paper using what is called an automata.
+            When the Programmed Data Processor 7 (PDP7) computer became available someone went ahead and made the game of life.
+            </p>
+            <div class="center"> <img src="PDP7-gol.png" height="500px" width="400px" alt=""></img> </div>
 
 
+            <p class="tab">
+              Game of life was assigned in my introduction to programming class.
+              It took a few days to get something to output to the console, but I still remember being eager to show off what I had made to my friends.
+              Game of life was a fun assignment, and was the first challenge for me.
+              I thought that after graduating it would be fitting that I give the program a second life.
+             Upgrading it to show to users onto my site, and to take the opportunity to further my javascript knowledge.
+      If you’d like to see more you can visit the Game of life github repository here:
+      Or you can view a full screen version here:
+      <div class="center">
+        <a href="https://christofb7.github.io/Game_Of_Life_JavaScript_Graphics/" target="_blank">
+        <div class="button" style="float:left;">
+          <div class="icon"><i style="font-size:42px" class="fa">&#xf0ac;</i>
+          </div>
+        </div>
+      </a>
+        <a href="https://github.com/ChristofB7/Game_Of_Life_JavaScript_Graphics" target="_blank">
+        <div class="button" style="float:left;">
+          <div class="icon"><i style="font-size:42px;padding: 18px 10px;" class="fa">&#xf09b;</i>
+          </div>
+        </div>
+        </a>
 
+      </div>
+        </p>
+      </main>
+    </div> <!-- end s-content -->
 
-
-                          <div class="text-center" style="margin-top: 0px">
-                            <h2>The Rules</h2>
-                          </div>
-<pre><code>
-                          Rule 1: Any live cell with less than 2 live neighbors dies.
-                          Rule 2: Any live cell with 2 or 3 neighbors lives.
-                          Rule 3: Any live cell with more than 3 neighbors dies.
-                          Rule 4: Any dead cell with exactly 3 neighbors becomes a live cell.
-</code></pre>
-<div class="text-center" style="margin-top: 0px">
-                            <h2>The Start</h2>
-                                                  </div>
-                            <p class="tab">
-                        As the most diffcult assignment of the introductory course at Bishop's University the Game of Life assignment became a challenge. It was not too difficult but I was eager to show
-                        off my progress to my friends at the dinning hall. I was proud to see the skills I had aquired in my first experience programming. It holds a special place in my heart, which is why
-                        it became the perfect project to recreate in JavaScript
-                        </p>
-
-                        <p class="tab">
-                          Game of Life became an easy project to recreate in JavaScript with a better understanding of coding fundementals.
-                          Once created in JavaScript the next step was to get it to show on an html page.
-                        </p>
-
-
-
-
-            </main>
-
-        </div> <!-- end s-content -->
 
 
         <!-- footer
@@ -138,10 +197,6 @@
                         <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
                     </div>
                 </div>
-            </div>
-
-            <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"></a>
             </div>
         </footer>
 
