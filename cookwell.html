@@ -86,71 +86,74 @@
                             <li class="date">May 19, 2021</li>
                         </ul>
                     </div> <!-- end entry__header -->
+                    <div class="center">
+                      <h3 style="color:black;"> Check out the source code! </h3>
+                      <a href="https://github.com/ChristofB7/cookwell" target="_blank">
+                      <div class="button" style="float:left;">
+                        <div class="icon"><i style="font-size:42px;padding: 18px 10px;" class="fa">&#xf09b;</i>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+
 
                     <div class="entry__content">
-
+                      <div class="center">
                         <p class="lead drop-cap">
-                              Cookwell has been a dream of mine for a while. During University when I began to understand the power of Java I started
-                              on an idea that would manage my recipes. It was an easy way to put together two passions - coding and cooking. Today its now being developed
-                              as a Flutter and Dart project for iOS and Android.
+                              The recipe manager to end all recipe managers.
                         </p>
+                      </div>
 
-                          <div class="text-center" style="margin-top: 0px">
-                            <h2>Early Development</h2>
-                            </div>
-                            <p class="tab">
-                        The first prototype was rough, while just learning the basics, I started by creating recipes and outputting them to the console. With no knowledge on graphics or
-                        UI I hit my first stopping point. The project had never really left my mind, but I had stopped working on it. When my school offered designing mobile apps
-                        for the first time I could see the project in a new light. With the class forcing us to publish an app to the app store this was the first version of Cookwell.
-                        It had released for android and was a rough design.
+
+                        <p class="tab">
+                          The history of Cookwell goes as far back as my history with coding.
+                          This project started in winter 2018 when I had when I learned the power of programming.
+                          I found myself learning to cook meals in college, eager to learn and improve and my new found hobby.
+                          When I tried new things, I would search up an "easy college" recipe and give it a shot.
+                          The next week when I was craving the same meal I would find myself searching and searching and not able to find it.
+                          So I wanted to create a way to store recipes.
+                          That's when Cookwell hit me.
                         </p>
 
 
                         <p>
-                        It became clear that the UI needed some real work - we needed to change the way the app looked and functioned. The functionality was there - utilizing firebase to store
-                        basic user information, their recipes and a search function. The app really need a retune. The main reason we decided to change the development from android studio and Java
-                        was because we wanted to release to Android and iOS at the same time. So we looked at our options.
+                          At the time, there was not much out there. It was mostly lackluster apps and web sites that only allowed their own recipes.
+                          So I started creating the project in Java.
+                          I didn't have much experience with the langauge, and I had never seen any graphics except for outputting to the console.
+                          It wasn't until 3 semesters later in fall of 2019 when Designing Mobile Apps CS230 was offered.
+                          The course outline stated that we would publish an app on the app store by the end of the course.
+                          Fast forward to the end of 2019 on December 13, Cookwell was released for android devices.
+                          With a total of 1 user this was something that I was happy to have worked on.
                         </p>
 
-<div class="text-center" style="margin-top: 0px">
-                        <h2 >Flutter and Dart</h2>
-</div>
-                        <p>
-                        After doing research there were many factors that came into consideration. We had narrowed it down to React Native and Flutter and Dart.
-                        Looking at the documentation flutter and dart had won my heart. It ultimately came down to what we were comfortable with. I had no experience
-                        with JavaScript at the time and decided that if I were to learn a new language I should dive in. Flutter's motto was, at the time, "Develope beautiful apps quickly",
-                        and that settled it for me. I had made my choice. We would develop in the language started by Google in 2018.
-                        </p>
+                        <div class="center">
+                        <h4> Check out the source code of the old version here: </h4>
+                        <a href="https://github.com/ChristofB7/old-cookwell" target="_blank">
+                        <div class="button" style="float:left;">
+                          <div class="icon"><i style="font-size:42px;padding: 18px 10px;" class="fa">&#xf09b;</i>
+                          </div>
+                        </div>
+                        </a>
+                      </div>
 
-<pre><code>
-  Widget build(BuildContext context) {
-      final colorScheme = Theme.of(context).colorScheme;
-      final textTheme = Theme.of(context).textTheme;
-      return Scaffold(
-          drawer: Drawer(
-            child: Container(
-              margin: EdgeInsets.only(top: 20.0),
-              child: Column(
-                children: <Widget>[
-                  navigationItemListTitle(RECIPES, _recipeMenu),
-                  navigationItemListTitle(SHOPPING, _shoppingMenu),
-                  navigationItemListTitle("Search", SearchRecipes()),
-                  navigationItemListTitle("MyCookbook", MyCookbook())
-                ],
-              ),
-            ),
-          ),
-          ...
-</code></pre>
+
+                        <p class="tab">
+                            I was happy to have worked on Cookwell and further improve the idea and get a nice first taste of what Cookwell could be.
+                            But this did not reach nearly 50% of its potential. Its UI was terrible, the functionality was forced onto Firebase (Google's free database), and stuck on just android.
+                            I wanted more from it. It wasn't until a year later in 2020 that I would find something more suitable.
+                            Given the opportunity I was allowed to do an independent study where I was given free reign on what I wanted to learn.
+                            So I scoured articles and sites figuring out the best way to learn mobile app design and create something for multiple platforms.
+                            I chose to learn Dart through a udemy course and leverage it to re-create cookwell.
+                            I was able to give the app a better look, feel and most importantly it can go to android and iOS at the same time.
+                        </p>
 
                         <p>
-                        Taking a course on Udemy, learning as I go, developing other apps as well as re-creating cookwell in Flutter was a blast.
-                        Falling in love with the way the code looked - the widgets, and the simplicity of it all really gave me a new found passion for
-                        the dream project of mine. As life got hectic with my last semester - an internship, and a full course load meant I had to put aside
-                        the project, but I am ever so ready to get started on it once again.
+                          Cookwell has evolved from its original state to an idea, into an app, and now a prototype for Android and iOS.
+                          The project has developed in parallel with the developer behind it. I've learned a lot from this project, from the basics of OOP, to UI, to multiplatform developing.
+                          The project has taken me through 3 IDEs and many iterations. I cannot stress how much I've learned from the app. I may not have much to share, but the learning has been immense.
+                          Overall, the app still needs a lot of work. Flutter and Dart has all of the tools required to make Cookwell the next big thing.
+                          The next steps are to devote time off to complete it.
                         </p>
-
-
 
             </main>
 
